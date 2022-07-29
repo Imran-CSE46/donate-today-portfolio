@@ -1,11 +1,19 @@
 body {
     margin: 0;
-    color: white;
 }
 
 h1 {
     font-size: 70px;
     margin: 0px 0px 5px 0px;
+}
+
+h2 {
+    font-size: 50px;
+    margin: 0px 0px 5px 0px;
+}
+
+h3 {
+    font-size: 30px;
 }
 
 p {
@@ -24,6 +32,7 @@ p {
 }
 
 .first-div {
+    color: white;
     width: 100%;
     height: 450px;
     text-align: center;
@@ -37,5 +46,67 @@ p {
     font-weight: 700;
     padding: 17px 34px;
     border-radius: 5px;
+}
 
+.second-div {
+    width: 100%;
+    height: 450px;
+    text-align: center;
+    padding-top: 120px;
+}
+
+.gray-color {
+    color: gray;
+}
+
+.donation-ammount {
+    display: flex;
+}
+
+.donation-ammount-box {
+    width: 10%;
+    height: 90px;
+    border-radius: 5px;
+    background-color: rgb(245, 245, 245);
+    box-shadow: 10px 10px 40px rgb(245, 245, 245);
+}
+
+.margin1 {
+    margin-left: 20%;
+    margin-right: 2%;
+}
+
+.margin2 {
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.margin3 {
+    margin-left: 2%;
+
+}
+
+.padding {
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.orange-color {
+    color: tomato;
+    border: 2px solid tomato;
+    background-color: rgba(245, 190, 182, 0.5);
+}
+
+.platinum-color {
+    color: rgb(128, 128, 128);
+    height: 30px;
+    text-align: center;
+    font-size: 15px;
+    border: none;
+    margin-left: 1%;
+}
+
+.horizontal {
+    width: 60%;
+    border: 1px solid rgb(229, 228, 226);
 }
